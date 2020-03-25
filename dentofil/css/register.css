@@ -1,0 +1,101 @@
+.heading{
+	text-align:center;
+	font-family:"spl";
+	font-size:50px;
+	letter-spacing:1px;
+	padding-top:30px;
+	color:rgb(45,47,67);
+	margin:10px;
+}
+
+.heading1{
+	text-align:center;
+	font-family:"spl";
+	font-size:35px;
+	letter-spacing:1px;
+	padding-top:30px;
+	color:rgb(45,47,67);
+	margin:10px;
+}
+
+
+.main {
+	background-color:White;
+	margin:5%;
+	margin-top:2%;
+	margin-right:10%;
+	margin-left:10%;
+}
+
+.line {
+	height: 3px;
+	width: 90%;
+	background: #ccc;
+	display: block;
+	line-height: 1.4em;
+	margin-top:50px;
+	margin:20px;
+}
+
+.btn {
+	color: #fff;
+	padding: 15px;
+	background: Rgba(45,47,67,1);
+	width: 200px;
+	font-size: 20px;
+	cursor: pointer;
+	border-radius: 3px;
+	font-family: "spl";
+	font-weight: 100;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+	text-align: center;
+	display:inline;
+	margin-left:30px;
+}
+
+.echo {
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.07);
+	width: 60%;
+	margin: 50px;
+	text-align:center;
+	font-family:"pnl";
+	font-size:30px;
+	padding:20px;
+}
+
+.input {
+	padding: 10px;
+	width: 300px;
+	font-size: 14pt;
+	font-family: "pnl";
+}
+
+.main .input {
+	margin: 5px;
+	margin-top: 15px;
+}
+
+
+.event {
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.07);
+	width: 60%;
+	margin-top: 50px;
+}
+
+.event .event-title {
+    font-family: "Roboto";
+    font-size: 20pt;
+    padding: 40px;
+    color: #fff;
+    background: #3d79e9;
+}
+
+.event .fields {
+    padding: 40px;
+}
+
+@media only screen and (max-width: 900px) {
+
+}

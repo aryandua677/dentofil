@@ -1,0 +1,84 @@
+@font-face {
+  src: url("../fonts/spl.otf");
+  font-family: 'spl';
+}
+
+@font-face {
+  src: url("../fonts/Ailerons.otf");
+  font-family: 'ail';
+}
+
+@font-face {
+  src: url("../fonts/spl.otf");
+  font-family: 'spl';
+}
+
+@font-face {
+  src: url("../fonts/pnt.ttf");
+  font-family: 'pnt';
+}
+
+@font-face {
+  src: url("../fonts/pnl.ttf");
+  font-family: 'pnl';
+}
+
+body {
+  background-color: White;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #666666;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: #ffffff;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-track:active {
+  background-color: #333333;
+}
+
+.social {
+  padding: 20px 0;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  background-color: Rgba(45, 47, 67, 1);
+}
+
+a.icons {
+  font-family: Flaticon;
+  font-size: 50px;
+  display: inline;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  transition: ease 0.5s;
+}
+
+a.icons:hover {
+  color: #fff;
+  transition: ease 0.5s;
+}
+
+.footer {
+  padding: 20px 0;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  background-color: Rgba(45, 47, 67, 1);
+  font-size: 12pt;
+  font-family: "pnt";
+  color: #F5F3EE;
+  letter-spacing: 1px;
+}
